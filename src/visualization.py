@@ -167,7 +167,7 @@ def plot_fires_regions(cursor):
 
 def main():
     user = 'jnichols2'
-    secret = 'Nichols1'
+    secret = 'Password'
     db = pg8000.connect(user=user, password=secret, host='bartik.mines.edu', database='csci403')
     cursor = db.cursor()
 
